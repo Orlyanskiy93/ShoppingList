@@ -14,8 +14,7 @@ class ShoppingListViewController: UIViewController, UITableViewDataSource, UITab
     @IBOutlet weak var shareButton: UIButton!
     var output: ShoppingListViewOutput!
     var indexOfChosenCell = 0
-    // 1111
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         output = ShoppingListPresenter(view: self)
